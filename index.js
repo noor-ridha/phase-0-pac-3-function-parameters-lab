@@ -1,14 +1,17 @@
 function introduction(userName) {
 return "hey my name is #{userName}." ;
 }
-introduction("noreen");
+console.log(introduction(noreen));
+
 
 function introductionWithLanguage(userName,language) {
     return "Hi, my Name is [userName] and I am learning to program in [language]."
 }
-    introduction("noreen","java");
+ console.log(introductionWithLanguage(noreen,javascript));
 
-    function iintroductionWithLanguageOptional(userName,language="Javascript") {
+ 
+
+    function introductionWithLanguageOptional(userName,language="Javascript") {
         return "Hi, my Name is [userName] and I am learning to program in [language]."
     }
-        introduction("noreen", "Javascript");
+        console.log(introduction("noreen", "c++"));
